@@ -1,6 +1,6 @@
 import pandas as pd
-from varname import nameof
-from varname.helpers import Wrapper
+# from varname import nameof
+# from varname.helpers import Wrapper
 
 def changing_dates(df, name_column): 
     """Changing the date type to datatime"""
