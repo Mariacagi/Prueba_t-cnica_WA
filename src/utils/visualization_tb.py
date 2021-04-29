@@ -72,19 +72,19 @@ def piechart_figure_6labels(labels, name_fig, rooth_path, x1=None, x2=None, x3=N
     plt.figure(figsize=(cm_to_inch(20),cm_to_inch(20)))
 
     if x6 != None:
-        colors = ["#3d4248","#3f5673", "#4D6380", "#5579A9", "#6B737E", "#C4CBD6"]
+        colors = ["#6B737E", "#4D6380", "#5579A9", "#88a0c3","#96a2b6", "#C4CBD6"]
         plt.pie([x1, x2, x3, x4, x5, x6], labels = labels, colors=colors, autopct="%.1f %%")
 
     elif x5 != None:
-        colors = ["#3f5673", "#4D6380", "#5579A9", "#6B737E","#C4CBD6"]
+        colors = ["#6B737E", "#5579A9", "#88a0c3","#96a2b6", "#C4CBD6"]
         plt.pie([x1, x2, x3, x4, x5], labels = labels, colors=colors, autopct="%.1f %%")
 
     elif x4 != None:
-        colors = ["#4D6380", "#5579A9", "#6B737E","#C4CBD6"]
+        colors = ["#5579A9", "#88a0c3","#96a2b6", "#C4CBD6"]
         plt.pie([x1, x2, x3, x4], labels = labels, colors=colors, autopct="%.1f %%")
     
     elif x3 != None:
-        colors = ["#5579A9", "#6B737E","#C4CBD6"]
+        colors = ["#5579A9", "#6B737E", "#C4CBD6"]
         plt.pie([x1, x2, x3], labels = labels, colors=colors, autopct="%.1f %%")
 
     elif x2 != None:
